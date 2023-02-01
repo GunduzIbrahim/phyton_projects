@@ -44,7 +44,7 @@ while True:
         print("Lutfen sadece harf girisi yapiniz..") 
               
     cevap = input("Tekrar oynamak ister misiniz? (E/H)") # oyunun devam edip etmeyecegi ile ilgili karar bekliyoruz.
-    if cevap.upper() != "E": # cevap buyuk harf ile bile verilse .lower() metodu ile cevap harfini kucuk harfe ceviriyoruz.
+    if cevap.upper() != "E": # cevap kucuk harf ile bile verilse .upper() metodu ile cevap harfini buyuk harfe ceviriyoruz.
          break
     
 
